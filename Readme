@@ -1,0 +1,15 @@
+Mitris Victor 334CC
+Tema 4 ASC
+CUDA: 2D Convolution
+
+
+IMplementation:
+
+	*FOr compiling execute make
+	*run  ./run_tests.sh(if out.txt and  grafic.txt are already created, they need to be deleted or because the results are added to the end of the files- being opened with append)
+	*After is executed make plot to create the grafic.png ( created plot )
+	
+Results analyzer:
+	Great imprevement in nonshared memory version from the CPU version. The duration for the largest matrix is 48 seconds for CPU and 27 seconds on GPU.
+	Se observa ca este o imbunatatire radicala in varianta GPU noshared memory fara de varianta CPU. Pentru cea mai mare matrice 
+timpul pe CPU fiind de 48ms in timp ce pe GPU este 27ms. 
